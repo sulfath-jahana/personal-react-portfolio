@@ -1,0 +1,79 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "Krish",
+      "age": 45,
+      "gender": "Male",
+      "phone": "1234567890",
+      "disease": "Diabetes"
+    },
+    {
+      "id": "2",
+      "name": "Priya",
+      "age": 32,
+      "gender": "Female",
+      "phone": "2345678901",
+      "disease": "Asthma"
+    },
+    {
+      "id": "3",
+      "name": "LAVANYA",
+      "age": 58,
+      "gender": "Female",
+      "phone": "3456789012",
+      "disease": "Hypertension"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Parvathy",
+      "specialization": "Cardiologist",
+      "phone": "4567890123"
+    },
+    {
+      "id": "2",
+      "name": "Dr. David",
+      "specialization": "General Physician",
+      "phone": "5678901234"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Sivakumar",
+      "specialization": "Dermatologist",
+      "phone": "6789012345"
+    },
+    {
+      "name": "riya",
+      "specialization": "surgeon ",
+      "phone": "7778889991",
+      "id": "vb-hAk4ZREc"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "patientId": 1,
+      "patientName": "Krish",
+      "doctorId": 1,
+      "doctorName": "Dr. Parvathy",
+      "date": "2026-08-25",
+      "time": "10:00 AM",
+      "reason": "Regular checkup",
+      "status": "Scheduled"
+    },
+    {
+      "id": "2",
+      "patientId": 2,
+      "patientName": "Priya",
+      "doctorId": 2,
+      "doctorName": "Dr. David",
+      "date": "2026-08-26",
+      "time": "11:30 AM",
+      "reason": "Asthma consultation",
+      "status": "Scheduled"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
